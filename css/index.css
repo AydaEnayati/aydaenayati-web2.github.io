@@ -1,0 +1,33 @@
+#logo{
+    width: 12vw;
+}
+
+.d1{
+    width: 90vw;
+}
+
+.l1{
+    margin-right: 2vw;
+}
+
+
+
+@media all and (max-width:991px) {
+    .d2{
+        display: none;
+    }
+    .a1{
+        display: none;
+    }
+
+    .a2{
+        margin-right: -50vw;
+    }
+    
+}
+
+@media all and (min-width:992px) {
+    .a2{
+        display: none;
+    }
+}
