@@ -1,3 +1,7 @@
+body {
+    height: 7780px;
+}
+
 #logo{
     width: 12vw;
 }
@@ -12,6 +16,7 @@
 
 
 
+
 @media all and (max-width:991px) {
     .d2{
         display: none;
@@ -23,6 +28,26 @@
     .a2{
         margin-right: -50vw;
     }
+
+    .d3{
+        width: 19vw;
+        height: 3vh;
+        line-height: 30px;
+        margin-top: -10vh; 
+        left: 40vw;
+        color: black;
+    }
+    .d3:hover{
+        background-color: #cc0108;
+        border-color: #cc0108;
+        color: white; 
+    }
+
+    .d5{
+        display: none;
+    }
+
+    
     
 }
 
@@ -30,4 +55,22 @@
     .a2{
         display: none;
     }
+    .d4{
+        display: none;
+    }
+
+    .d6{
+        width: 13vw;
+        height: 3vh;
+        line-height: 30px;
+        margin-top: -15vh; 
+        left: 65vw;
+        color: black;
+    }
+    .d6:hover{
+        background-color: #cc0108;
+        border-color: #cc0108;
+        color: white; 
+    }
+
 }
