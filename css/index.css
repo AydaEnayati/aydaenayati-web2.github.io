@@ -15,6 +15,25 @@
         display: none;
     }
 
+    .d3{
+        width: 15%;
+        height: calc(10px+1vw);
+        line-height: 30px;
+        margin-top: -20%; 
+        left: 40vw;
+        color: black;
+        font-size: calc(7px + 0.5vw);
+    }
+    .d3:hover{
+        background-color: #cc0108;
+        border-color: #cc0108;
+        color: white; 
+    }
+
+    .d5{
+        display: none;
+    }
+
 
 }
 
@@ -26,11 +45,48 @@
         display: none;
     }
 
-    .nav-item:hover{
-        text-decoration: underline red;
+    .nav-item::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin-top: -8px;
+        background-color: #cc0108;
+        transform: scaleX(0);
+        transition: all 200ms linear 0s;
+    }
+
+    .nav-item:hover::after {
+        transform: scaleX(1);
     }
 
     .nav-link{
-        font-size: calc(7px + 0.5vw);
+        font-size: calc(7px + 0.4vw);
+    }
+
+    .i1{
+        transition: all 1s linear 0s;
+    }
+    
+    .i1:hover {
+        transform: rotateX(180deg);
+    }
+
+    .d4{
+        display: none;
+    }
+
+    .d6{
+        width: 15%;
+        height: 9%;
+        line-height: 30px;
+        margin-top: -13%; 
+        left: 65vw;
+        color: black;
+    }
+    .d6:hover{
+        background-color: #cc0108;
+        border-color: #cc0108;
+        color: white; 
     }
 }
