@@ -69,6 +69,10 @@ body{
         background-color: #f5f5f5;
        }
 
+       .d16{
+        display: none;
+       }
+
 
 
 }
@@ -157,6 +161,25 @@ body{
    .d14{
     display: none;
    }
+
+   .d15{
+    width: 13%;
+    height: 7%;
+    line-height: 30px;
+    margin-top: -10.5%; 
+    left: 53vw;
+
+}
+
+.d15:hover{
+    background-color: #cc0108;
+    border-color: #cc0108;
+    color: white; 
+}
+
+.d16{
+display: none;
+}
 
 
 }
